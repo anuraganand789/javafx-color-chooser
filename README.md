@@ -1,2 +1,2 @@
 # javafx-color-chooser
-this is an application to choos color
+this is an application to choose color
