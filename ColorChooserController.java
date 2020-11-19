@@ -1,7 +1,5 @@
 import static javafx.scene.paint.Color.rgb;
 
-import javafx.fxml.FXML;
-
 public class ColorChooserController extends ColorChooserControls{
 
     private int 
@@ -12,7 +10,6 @@ public class ColorChooserController extends ColorChooserControls{
     private double 
                   alpha = 1.0;
 
-    @FXML
     void initialize() {
 
          redTextField .textProperty() .bind(   redSlider .valueProperty() .asString("%.0f") );
